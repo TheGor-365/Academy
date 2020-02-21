@@ -107,7 +107,7 @@ button {
 
 .banner_2 {
   margin-top: 48px;
-  width: 62%;
+  width: 800;
 }
 
 .ciat {
@@ -125,10 +125,27 @@ button {
 }
 
 .figure {
+  position: relative;
+  display: inline-block;
   color: #1E90FF;
   text-decoration: none;
 }
 
+.left {
+  float: left;
+  display: inline-block;
+  padding: 20px;
+}
+
 .text {
-  
+  position: relative;
+  display: inline-block;
+  margin: 14px;
+  height: 170px;
+  width: 150px;
+  padding: 40px;
+}
+
+.general {
+  float: left;
 }
